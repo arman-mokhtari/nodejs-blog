@@ -1,0 +1,46 @@
+{
+  "name": "nodejs-blog",
+  "version": "1.0.0",
+  "description": "my simple blog app",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development DEBUG=weblog-project nodemon app"
+  },
+  "keywords": [],
+  "author": "Arman Mokhtari",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "captchapng": "0.0.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "debug": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.1",
+    "jalali-moment": "^3.3.9",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.5.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sharp": "^0.27.1",
+    "shortid": "^2.2.16",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
